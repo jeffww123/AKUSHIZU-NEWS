@@ -1,0 +1,317 @@
+/*AKUSHIZU NEWS css*/
+
+
+body {
+	background-color: #fff6e6;
+	margin: auto;
+}
+
+.container{
+	position:relative ;
+	box-sizing: border-box;
+	width: 1080px;
+	height: 720px ;
+  margin: auto;
+}
+
+header {
+	box-sizing: border-box;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 10px;
+}
+
+.title{
+  float: left;
+  box-sizing: border-box;
+}
+
+.title h1{
+  margin: 0;
+  line-height: 60px;
+}
+
+.icon-1 img{
+  float: left;
+  width: 55px;
+  height: 55px;
+	margin-right: 10px;
+}
+
+.links{
+  height: 60px;
+  float: right;
+  line-height: 60px;
+  box-sizing: border-box;
+}
+
+.search-area{
+  float: right;
+  margin-left: 5px;
+}
+
+.icon-border{
+  float: right;
+  margin-bottom: 0;
+  padding-top: 3px;
+}
+
+.links .icon img{
+  width:20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.site-nav {
+  clear: both;
+  max-width: 1080px;
+  min-width: 100%;
+	display: block;
+	width: auto;
+	height: 40px;
+  margin-top: 8px;
+	margin-bottom: 10px;
+	background-color: #778A50;
+	border-radius: 3px;
+  float: left;
+}
+
+.site-nav a {
+	color: #EDF2D5;
+	text-decoration: none;
+}
+
+.site-nav ul{
+  margin: 0;
+}
+
+.site-nav li {
+  line-height: 40px;
+	list-style: none;
+	float: left;
+	font-family: 'Arial', sans-serif;
+	font-size: 18px ;
+	color: #EDF2C5;
+	margin-right: 60px;
+}
+
+ h1 {
+  float: left;
+}
+
+.main-pic h1{
+  width: 1080px;
+  height: 54px;
+  margin: 10px;
+  font-size: 44px;
+}
+ .main-pic{
+	position: relative;
+}
+
+.main-news{
+	border: 3px solid #778A50;
+	float: left;
+	width:604px;
+	height:540px;
+	box-sizing: border-box;
+}
+
+.main-text{
+	margin: 0;
+	position: absolute;
+	margin-top: 530px;
+}
+
+.main-text .more{
+	background-color: rgba(196, 196, 196, 0.84);
+	height: 40px;
+	width: 85px;
+	margin: 0;
+	margin-top: 12px;
+	margin-left: 60px;
+	position: absolute;
+}
+
+.more a{
+	line-height: 40px;
+	padding-left: 12px;
+  text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.text {
+	float: left;
+}
+
+.text h3{
+		padding-left: 60px;
+		margin-bottom: 10px;
+		font-size: 24px;
+		font-weight: bold;
+		background-color: rgba(255, 255, 255, 0.39);
+}
+
+.text .black{
+	background-color: rgba(0, 0, 0, 0.26);
+	width: 600px;
+	height: 70px;
+	position: relative;
+	float: left;
+	margin-left: 3px;
+	margin-top: 10px;
+}
+
+.page{
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	margin-left: 470px;
+	margin-top: 45px;
+}
+
+.page span{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	border-radius: 100%;
+	background-color: rgba(191, 189, 191, 0.73);
+	opacity: 0.8;
+	margin: 0.5px;
+}
+
+.page .sp1 span{
+	background-color: rgba(28, 28, 28, 0.73);
+}
+
+.sub-news{
+	width: 474px;
+	height:540px;
+	border: 1px solid #778A50;
+	float: left;
+	border-width: medium;
+	padding-top: 5px;
+	box-sizing: border-box;
+}
+
+.main img{
+	height: 535px;
+  width: 598px;
+}
+
+.sub img{
+  width: 450px;
+  height:255px;
+	border-radius: 5px;
+	margin-left: 8px;
+}
+
+.sub-text .more{
+	background-color: rgba(196, 196, 196, 0.84);
+	height: 40px;
+	width: 85px;
+	margin: 0;
+	position: absolute;
+	margin-left: 660px;
+	margin-top: 338px;
+	border-radius: 2px;
+}
+
+.sub-news h4{
+	margin: 0;
+	font-size: 18px;
+	margin: 0px 38px;
+}
+
+.photo{
+	width: 470px;
+	height: 200px;
+	border-top: 1px solid #778A50;
+	border-width: medium;
+	margin-top: 10px;
+	padding-top: 5px;
+	display: block;
+}
+
+.photo h3,.sort-nav{
+	margin-top: 10px;
+	margin-bottom: 0;
+	margin-left: 38px;
+}
+
+.sort-nav{
+	clear: both;
+	display: block;
+	width: 199px;
+	height: 25px;
+	margin-top: 8px;
+	border-radius: 3px;
+	background-color: #778A50;
+	float: left;
+}
+
+.sort-nav a {
+	color: #EDF2D5;
+	text-decoration: none;
+}
+
+.sort-nav ul{
+  margin: 0;
+	padding: 0;
+}
+
+.sort-nav li {
+  line-height: 25px;
+	list-style: none;
+	float: left;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px ;
+	color: #EDF2C5;
+	border: 1px solid #f1dcc8;
+}
+
+.sort-nav a{
+	padding:0 24px;
+}
+
+.photo-nav{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.photo-nav a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.photo-nav ul{
+	padding-top: 2px;
+}
+
+.photo-nav li {
+	font-family: 'Arial', sans-serif;
+	font-size: 18px ;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+footer {
+	clear: both;
+	max-width: 1264px;
+	min-width: 100%;
+	height: 60px;
+	text-align: center;
+  background-color: #778A50;
+	margin-top: 100px;
+}
+
+footer p {
+	font-family: 'ArialMT Regular', sans-serif;
+	font-size: 12px;
+	color: #EDF2C5;
+	text-align: center;
+	line-height: 60px;
+	margin: 0;
+}
